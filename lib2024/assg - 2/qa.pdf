@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Questions related to Assignment 2</title>
+</head>
+<body>
+	<header>Questions related to Assignment 2</header>
+<main>
+	<br>
+		<ol>
+			<li>
+				<p>
+					<strong>Question 1</strong>
+					Give example of three block level elements
+				</p>
+				<p>
+					<strong>Answer 1</strong>
+					Three block level elements are &lt; ul &gt; , &lt; ol &gt; , &lt; p &gt;
+				</p>
+				<br>
+				<p>
+					<strong>Question 2</strong>
+					Give an example of three inline elements
+				</p>
+				<p>
+					<strong>Answer 2</strong>
+					Three inline elements are &lt; a &gt; , &lt; br &gt; , &lt; img &gt;
+				</p>
+				<br>
+				<p>
+					<strong>Question 3</strong>
+					Which tag is used to create a table row
+				</p>
+				<p>
+					<strong>Answer 3</strong>
+					Tag &lt; tr &gt; will add in a table row.
+				</p>
+				<br>
+				<p>
+					<strong>Question 4</strong>
+					Which element is required to create any list in html
+				</p>
+				<p>
+					<strong>Answer 4</strong>
+					The &lt; li &gt; tag is used for lists.
+				</p>
+				<br>
+				<p>
+					<strong>Question 5</strong>
+					What attribute is used for unique identification of an element?
+				</p>
+				<p>
+					<strong>Answer 5</strong>
+					The &lt; id &gt; tag specifies a unique id for an HTML element.
+				</p>
+				<br>
+				<p>
+					<strong>Question 6</strong>
+					Which attribute is used for group identification of an element?
+				</p>
+				<p>
+					<strong>Answer 6</strong>
+					The &lt; class &gt; tag is used to attribute one or more class names for an element.
+				</p>
+				<br>
+				<p>
+					<strong>Question 7</strong>
+					What marks the start and end of HTML entity?
+				</p>
+				<p>
+					<strong>Answer 7</strong>
+					An & and a ; mark the start and end of an HTML entity.
+				</p>
+				<br>
+				<p>
+					<strong>Question 8</strong>
+					What would you call src, href, border, align in HTML language?
+				</p>
+				<p>
+					<strong>Answer 8</strong>
+					src, href, border, and align are all HTML attributes.
+				</p>
+				<br>
+				<p>
+					<strong>Question 9</strong>
+					What is the easiest way to identify HTML5 document?
+				</p>
+				<p>
+					<strong>Answer 9</strong>
+					The file will have the &lt; !Doctype html &gt; at the top
+				</p>
+				<br>
+				<p>
+					<strong>Question 10</strong>
+					Most important Tag for Search Engine Optimization?
+				</p>
+				<p>
+					<strong>Answer 10</strong>
+					The &lt; nav &gt; tag is the most important for seo.
+				</p>
+			</li>
+		</ol>
+</main>
+</body>
+</html>
