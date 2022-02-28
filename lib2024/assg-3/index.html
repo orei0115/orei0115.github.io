@@ -1,0 +1,146 @@
+		<!DOCTYPE html>
+	<html lang="en-ca">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<title>Assignment 3</title>
+		</head>
+		<body>
+			<header>
+				<h1>Assignment 3 - HTML Forms</h1>
+			</header>
+			<!-- starting forms here -->
+			<!-- example of text areas -->
+				<div id="wrapper" class="wrapper">
+					<section id="html-forms" class="main-section">
+						<form action="somepage.php" method="get">
+							
+							<div id="fn-containger" class="form-elm">
+								<label for="FirstName">First name</label>
+								<input type="text" name="FirstName" id="FirstName" placeholder="First name here">
+							</div>
+
+							<div id="ln-container" class="form-elm">
+								<label for="LastName">Last name</label>
+								<input type="text" name="LastName" id="LastName" placeholder="Last name here">
+							</div>
+
+							<div id="email-container" class="form-elm">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" value="name@internet.com" readonly>
+							</div>
+
+							<div id="pass-container" class="form-elm">
+								<label for="pass">Password</label>
+								<input type="Password" name="pass" id="pass" required>
+							</div>
+
+							<!--starting area for text-->
+							<div id="sum-container" class="form-elm">
+								<label for="Introductorytext">Introductory text</label>
+								<textarea name="Introductorytext" id="Introductorytext" placeholder="Introductory text here">
+									Introductory text area
+								</textarea>
+							</div>
+
+							<div>
+								<label for="date">Enter your DOB</label>	
+								<input type="date" name="date" id="date"><br>
+							</div>
+								
+							<div id="st-container" class="form-elm">
+								<label for="num">Enter your mobile number</label>
+								<input type="number" id="num" name="num" required><br>
+							</div>
+
+							<div id="radio-container" class="form-elm">
+								<p>Please select your gender</p>
+								<label for="female"></label>
+								<input type="radio" name="gender" id="female" value="female" checked>
+								Female
+								<label>
+								<input type="radio" name="gender" id="male" value="male">
+								Male
+								</label>	
+								<label>
+								<input type="radio" name="gender" id="other" value="other">
+								Other
+								</label>
+							</div><br>
+
+							<div id="ad-container" class="form-elm">
+								<label for="address">Street Address</label>
+								<input type="text" name="address" id="address" placeholder="Street address here">
+							</div>
+
+							<div id="ci-container" class="form-elm">
+								<label for="City">City</label>
+								<input type="text" name="City" id="City" placeholder="City here">
+							</div>
+
+							<div id="og-container" class="form-elm">
+								<label for="province">Province</label>
+								<select id="province" name="province">
+									<optgroup label="province">
+										<option value="British Columbia">British Columbia</option>
+										<option value="Alberta">Alberta</option>
+										<option value="Saskatchewan">Saskatchewan</option>
+										<option value="Manitoba">Manitoba</option>
+										<option value="Ontario">Ontario</option>
+										<option value="Quebec">Quebec</option>
+										<option value="Newfoundland">Newfoundland</option>
+										<option value="New Brunswick">New Brunswick</option>
+										<option value="Nova Scotia">Nova Scotia</option>
+										<option value="Prince Edward Island">Prince Edward Island</option>
+										<option value="Yukon">Yukon</option>
+										<option value="North West Territories">North West Territories</option>
+										<option value="Nunavut">Nunavut</option>
+									</optgroup>
+								</select>
+								</div>
+
+								<div id="oc-container" class="form-elm">
+									<label for="country">Country</label>
+									<select id="country" name="country">
+										<optgroup label="country">
+											<option value="Canada">Canada</option>
+											<option value="USA">USA</option>
+											<option value="Mexico">Mexico</option>
+										</optgroup>
+									</select>
+								</div>
+
+								<div id="pc-container" class="form-elm">
+								<label for="postalcode">Postal Code</label>
+								<input type="text" name="postalcode" id="postalcode" placeholder="1A1 2B2">
+								</div><br>
+
+								<div id="hobbies" class="form-elm">
+									<h2>What are your hobbies or interests?</h2>
+									<label for="reading">Reading</label>
+									<input type="checkbox" name="reading" id="reading" value="hobbies"> 
+									
+									<label for="videogames">Video games</label>
+									<input type="checkbox" name="videogames" id="videogames" value="videogames">
+									
+									<label for="badminton">Badminton</label>
+									<input type="checkbox" name="badminton" id="badminton" value="badminton">
+
+									<label for="makingsoap">Making soap</label>
+									<input type="checkbox" name="makingsoap" id="makingsoap" value="makingsoap">
+								</div><br>
+
+								<div>
+									<label for="url">Enter a URL:</label>
+									<input type="url" name="url" id="url">
+								</div><br>
+
+								<div>
+									<button type="submit">Submit</button>
+									<button type="reset">Reset</button>
+								</div>
+						</form>
+					</section>
+				</div>
+		</body>
+	</html>
