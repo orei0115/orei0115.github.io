@@ -87,7 +87,6 @@ header {
 	display: inline;
 	padding: 15px;
 	background: #72A9AE;
-
 }
 
 
@@ -98,14 +97,45 @@ header {
 	font-family: 'Roboto', sans-serif;
 }
 
+a:before, a:after {
+	content: "";
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background-size: 100%;
+	margin: 0 10px;
+}
+
 .site-img {
+/*	position: fixed;
+	width: 100%;
+	height: 100px;
+	z-index: 100px;
+	float: right;
 	width: 30%;
 	padding: 10px;
+*/
 }
 
 .site-sidebar {
 	font-family: 'Roboto', sans-serif;
 }
+/*
+.R1 {
+	background: #EFEFEF;
+}
+
+.R3 {
+	background: #EFEFEF;
+}
+
+.R5 {
+	background: #EFEFEF;
+}
+*/
+
+td: nth-child (even)
+	background: #EFEFEF;
 
 .profile-edit {
 	width: 50%;
