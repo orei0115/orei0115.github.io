@@ -118,7 +118,7 @@ footer {
 .footer-nav {
 	float: left;
 	width: 100%;
-	padding-top: auto;
+
 
 }
 
@@ -136,7 +136,7 @@ footer {
 .footer-address {
 	width: 100%;
 	float: right;
-	padding-top: auto;
+
 	display: block;
 }
 
