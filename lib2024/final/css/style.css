@@ -107,6 +107,13 @@ header {
 	font-family: 'Roboto', sans-serif;
 }
 
+.profile-edit {
+	width: 50%;
+}
+
+.profile-info {
+	width: 50%;
+}
 footer {
 	background: #454545;
 	padding: 15px;
