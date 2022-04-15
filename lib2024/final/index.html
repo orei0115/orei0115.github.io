@@ -1,186 +1,196 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>final</title>
-</head>
-<body>
-	<header>
-		<div>
-			<img src="img/logo.png" align="logo.png">
-		</div>
-		<section>
-			<nav>
-				<ul>
-					<li><a href="Home">Home</a></li>
-					<li><a href="About">About</a></li>
-					<li><a href="Schedule">Schedule</a></li>
-					<li><a href="Portfolio">Portfolio</a></li>
-					<li><a href="Contact">Contact</a></li>
-				</ul>
-			</nav>
-		</section>
-	</header>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>final</title>
+	</head>
+	<body>
+		<header class="header" id="header">
+			<div class="logo">
+				<img src="img/logo.png" align="logo.png">
+			</div>
+<!-- header navigation starts here -->			
+				<nav class="header-nav-container clearfix" id="header-nav">
+					<ul class="header-nav">
+						<li class="header-nav-ind"><a href="Home">Home</a></li>
+						<li class="header-nav-ind"><a href="About">About</a></li>
+						<li class="header-nav-ind"><a href="Schedule">Schedule</a></li>
+						<li class="header-nav-ind"><a href="Portfolio">Portfolio</a></li>
+						<li class="header-nav-ind"><a href="Contact">Contact</a></li>
+					</ul>
+				</nav>		
+		</header>
+<!-- header navigation ends here -->		
+<!-- main content starts here -->
+		<main class="main-container clearfix" id="content">
+<!-- About section starts here -->			
+			<article class="col-main site-content">
+				<section>
+					<h2>About</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</section>
+				<section>
+					<div>
+						<img src="img/teach.jpg" alt="teach.jpg">
+					</div>
+				</section>
+			</article>
+<!-- About stops here -->
 
-	<main>
-		<article>
-			<section>
-				<h2>About</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</section>
+<!-- schedule starts here -->
+			<aside class="col-main site-sidebar">
+				<section>
+					<h2>Schedule</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Time</th>
+								<th>Monday</th>
+								<th>Tuesday</th>
+								<th>Wednesday</th>
+								<th>Thursday</th>
+								<th>Friday</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>09:00</td>
+								<td>Communications 1</td>
+								<td>Client Services</td>
+								<td>Special Collections</td>
+								<td>Directed Research Seminar</td>
+								<td>Client Services</td>
+							</tr>
+							<tr>
+								<td>11:00 - 12:30</td>
+								<td>Reference</td>
+								<td>Internet App</td>
+								<td>Library Software</td>
+								<td>French</td>
+								<td>Reference</td>
+							</tr>
+							<tr>
+								<td>14:00 - 15:00</td>
+								<td>Acquisitions</td>
+								<td>General Elective</td>
+								<td>Marketing</td>
+								<td>Emerging Library Tech</td>
+								<td>Library Software</td>
+							</tr>
+							<tr>
+								<td>15:30 - 17:30</td>
+								<td>French</td>
+								<td>French</td>
+								<td>Acquisitions</td>
+								<td>Subject Analysis</td>
+								<td>Internet App</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+			</aside>
+<!-- schedule stops here -->
+<!-- profile starts here -->			
 			<section>
 				<div>
-					<img src="img/teach.jpg" alt="teach.jpg">
+					<h2>Edit Profile</h2>
+				</div>
+				<div>
+					<label for="Name">Name</label>
+					<input type="text" name="name" id="name" placeholder="Name here">
+				</div>
+				<div>
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" placeholder="email here">
+				</div>
+				<div>
+					<label for="address">Address</label>
+					<input type="text" name="address" id="adress" placeholder="address here">
+				</div>
+				<div>
+					<label for="city">City</label>
+					<input type="text" name="city" id="city" placeholder="city here">
+				</div>
+				<div>
+					<label for="province">Province</label>
+					<select id="province" name="province">
+						<optgroup label="province">
+							<option value="British Columbia">British Columbia</option>
+							<option value="Alberta">Alberta</option>
+							<option value="Saskatchewan">Saskatchewan</option>
+							<option value="Manitoba">Manitoba</option>
+							<option value="Ontario">Ontario</option>
+							<option value="Quebec">Quebec</option>
+							<option value="Newfoundland">Newfoundland</option>
+							<option value="New Brunswick">New Brunswick</option>
+							<option value="Nova Scotia">Nova Scotia</option>
+							<option value="Prince Edward Island">Prince Edward Island</option>
+							<option value="Yukon">Yukon</option>
+							<option value="North West Territories">North West Territories</option>
+							<option value="Nunavut">Nunavut</option>
+						</optgroup>
+					</select>
+				</div>
+					<div>
+					<label for="postal">Postal Code</label>
+					<input type="text" name="postal" id="postal" placeholder="postal">
+				</div>
+				<div>
+					<button type="submit">Submit</button>
 				</div>
 			</section>
-		</article>
-		<aside>
 			<section>
-				<h2>Schedule</h2>
-				<table>
-					<thead>
-						<tr>
-							<th>Time</th>
-							<th>Monday</th>
-							<th>Tuesday</th>
-							<th>Wednesday</th>
-							<th>Thursday</th>
-							<th>Friday</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>09:00</td>
-							<td>Communications 1</td>
-							<td>Client Services</td>
-							<td>Special Collections</td>
-							<td>Directed Research Seminar</td>
-							<td>Client Services</td>
-						</tr>
-						<tr>
-							<td>11:00 - 12:30</td>
-							<td>Reference</td>
-							<td>Internet App</td>
-							<td>Library Software</td>
-							<td>French</td>
-							<td>Reference</td>
-						</tr>
-						<tr>
-							<td>14:00 - 15:00</td>
-							<td>Acquisitions</td>
-							<td>General Elective</td>
-							<td>Marketing</td>
-							<td>Emerging Library Tech</td>
-							<td>Library Software</td>
-						</tr>
-						<tr>
-							<td>15:30 - 17:30</td>
-							<td>French</td>
-							<td>French</td>
-							<td>Acquisitions</td>
-							<td>Subject Analysis</td>
-							<td>Internet App</td>
-						</tr>
-					</tbody>
-				</table>
-			</section>
-		</aside>
-		<section>
-			<div>
-				<h2>Edit Profile</h2>
-			</div>
-			<div>
-				<label for="Name">Name</label>
-				<input type="text" name="name" id="name" placeholder="Name here">
-			</div>
-			<div>
-				<label for="email">Email</label>
-				<input type="text" name="email" id="email" placeholder="email here">
-			</div>
-			<div>
-				<label for="address">Address</label>
-				<input type="text" name="address" id="adress" placeholder="address here">
-			</div>
-			<div>
-				<label for="city">City</label>
-				<input type="text" name="city" id="city" placeholder="city here">
-			</div>
-			<div>
-				<label for="province">Province</label>
-				<select id="province" name="province">
-					<optgroup label="province">
-						<option value="British Columbia">British Columbia</option>
-						<option value="Alberta">Alberta</option>
-						<option value="Saskatchewan">Saskatchewan</option>
-						<option value="Manitoba">Manitoba</option>
-						<option value="Ontario">Ontario</option>
-						<option value="Quebec">Quebec</option>
-						<option value="Newfoundland">Newfoundland</option>
-						<option value="New Brunswick">New Brunswick</option>
-						<option value="Nova Scotia">Nova Scotia</option>
-						<option value="Prince Edward Island">Prince Edward Island</option>
-						<option value="Yukon">Yukon</option>
-						<option value="North West Territories">North West Territories</option>
-						<option value="Nunavut">Nunavut</option>
-					</optgroup>
-				</select>
-			</div>
+				<h2>Profile Info</h2>
 				<div>
-				<label for="postal">Postal Code</label>
-				<input type="text" name="postal" id="postal" placeholder="postal">
-			</div>
-			<div>
-				<button type="submit">Submit</button>
-			</div>
-		</section>
-		<section>
-			<h2>Profile Info</h2>
-			<div>
-				
-			</div>
-		</section>
-	</main>
-	<footer>
-		<section>
-			<h3>Quick Links</h3>
-		</section>
-		<section>
-			<nav>
-				<ul>
-					<li><a href="Schedule">Schedule</a></li>
-					<li><a href="About">About</a></li>
-					<li><a href="Portfolio">Portfolio</a></li>
-					<li><a href="Contact">Contact</a></li>
-				</ul>
-			</nav>
-		</section>
-		<section>
-			<h3>Follow us</h3>
-		</section>
-		<section>
-			<div class="social-container">   
-		        <ul class="clearfix" id="social">
-		          <li><a href="#"><img src="img/facebook.png" alt="facebook.png"></a></li>
-		          <li><a href="#"><img src="img/twitter.png" alt="twitter.png"></a></li>
-		          <li><a href="#"><img src="img/youtube.png" alt="youtube.png"></a></li>
-		        </ul>
-    		</div>
-		</section>
-		<section>
-			<h3>Address</h3>
-		</section>
-		<section>
-			<p>1385 Woodroffe Ave,
-			Nepean ON K2G 1V8
-			Canada</p>
-		</section>
-	</footer>
-</body>
+					<i class="fa-solid fa-person-chalkboard"></i>
+					<!-- need to add a link to font awesome still -->
+				</div>
+			</section>
+		</main>
+<!-- profile stops here -->					
+		<footer class="footer clearfix" id="footer">
+			<section>
+				<h3>Quick Links</h3>
+			</section>
+			<section>
+				<nav class="footer-nav-container">
+					<ul class="footer-nav">
+						<li><a href="Schedule">Schedule</a></li>
+						<li><a href="About">About</a></li>
+						<li><a href="Portfolio">Portfolio</a></li>
+						<li><a href="Contact">Contact0-=-= </a></li>
+					</ul>
+				</nav>
+			</section>
+			<section class="footer-social">
+				<h3>Follow us</h3>
+			</section>
+			<section>
+				<nav>
+				<div class="social-container">   
+			        <ul class="clearfix" id="social">
+			          <li><a href="#"><img src="img/facebook.png" alt="facebook.png"></a></li>
+			          <li><a href="#"><img src="img/twitter.png" alt="twitter.png"></a></li>
+			          <li><a href="#"><img src="img/youtube.png" alt="youtube.png"></a></li>
+			        </ul>
+	    		</div>
+	    	</nav>
+			</section>
+			<section class="footer-address">
+				<h3>Address</h3>
+			</section>
+			<section>
+				<p>1385 Woodroffe Ave,
+				Nepean ON K2G 1V8
+				Canada</p>
+			</section>
+		</footer>
+	</body>
 </html>
