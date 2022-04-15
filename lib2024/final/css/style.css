@@ -59,6 +59,7 @@ table {
 
 	teal : #72A9AE rgb 114,169,174
 	dark grey : #454545 rgb 69,69,69
+	light grey : #EFEFEF rgb 239,239,239
 	white : FFFFFF rgb 255,255,255
 */
 
@@ -69,6 +70,7 @@ table {
 
 header {
 	background: #FFFFFF;
+	width: 100%;
 }
 
 .logo {
@@ -79,14 +81,29 @@ header {
 	background: #FFFFFF;
 }
 
-.header-nav ul {
-	width: calc(100% - 100px);
-	max-width: 600px;
-}
-
 .header-nav li {
 	width: 100%;
 	box-sizing: border-box;
 	display: inline;
 	padding: 15px;
+	background: #72A9AE;
 }
+
+.col-main {
+	width 60%
+	position: ;
+}
+
+.site-img {
+	width: 30%;
+	position: ;
+}
+
+footer {
+	background: #454545;
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+
