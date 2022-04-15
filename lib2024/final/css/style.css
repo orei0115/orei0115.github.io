@@ -89,6 +89,10 @@ header {
 	background: #72A9AE;
 }
 
+.main-container {
+	background-image: src="img/webb.png" alt="webb.png";
+}
+/*the background image isn't working, not sure why*/
 
 .site-content {
 	text-align: left;
@@ -104,7 +108,16 @@ a:before, a:after {
 	height: 5px;
 	background-size: 100%;
 	margin: 0 10px;
+
 }
+th:nth-child(odd) {
+	background: #EFEFEF;
+}
+
+
+td:nth-child(even) {
+	background: #EFEFEF;
+} 
 
 .site-img {
 /*	position: fixed;
@@ -114,6 +127,8 @@ a:before, a:after {
 	float: right;
 	width: 30%;
 	padding: 10px;
+
+	these commands make the picture go on top of the schedule
 */
 }
 
@@ -133,9 +148,6 @@ a:before, a:after {
 	background: #EFEFEF;
 }
 */
-
-td: nth-child (even)
-	background: #EFEFEF;
 
 .profile-edit {
 	width: 50%;
