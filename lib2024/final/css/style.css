@@ -106,7 +106,8 @@ li:hover{
 	text-align: left;
 	width: 60%;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: 'abhaya_libreregular'; 
 }
 
 a:before, a:after {
@@ -116,8 +117,8 @@ a:before, a:after {
 	height: 5px;
 	background-size: 100%;
 	margin: 0 10px;
-
 }
+
 th:nth-child(odd) {
 	background: #EFEFEF;
 }
@@ -161,39 +162,59 @@ td:nth-child(even) {
 .profile-info {
 	width: 50%;
 }
-footer {
+
+
+.footer {
 	background: #454545;
+	width: 100%;
 	padding: 15px;
 	margin: 0 auto;
 	box-sizing: border-box;
+	font-family: roboto , sans-serif;
+	color: #FFFFFF;
+} 
+
+.footer-nav-container {
+	float: left;
+	width: 30%;
+	padding-top: 30px;
+	box-sizing: border-box;
 }
 
+.footer-nav-social {
+	width: 50%;
+
+
+}
+
+.footer-address {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+}
+
+
+/*
 .footer-nav {
 	float: left;
 	width: 100%;
-
-
 }
-
 .footer-social {
 	padding: 15px;
 	margin: 0 auto;
-	display: inline;
 }
-
 .social-container {
 	width: 100%;
 	box-sizing: border-box;
 	display: inline;
-}
-
+} 
 .footer-address {
 	width: 100%;
 	float: right;
 
 	display: block;
 }
-
+*/ 
 
 header, main, footer {
 	max-width: 1280px;
