@@ -129,9 +129,14 @@ li:hover{
 	text-align: left;
 	width: 60%;
 	box-sizing: border-box;
-	/* font-family: 'Roboto', sans-serif; */
 	font-family: 'abhaya_libreregular'; 
 	padding:  15px;
+	display: inline-block;
+}
+
+img .site-img {
+	display: inline-block;
+	width: 30%;
 }
 
 /* a:before, a:after {
@@ -141,18 +146,18 @@ li:hover{
 } */
 
 .schedule {
-	border: 1px solid;";
-	box-sizing:  border-box;
+	border: 1px solid;
+	box-sizing: border-box;
 	max-width: 90%;
-	margin-left:  auto;
-	margin-right:  auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 th {
 	background: #FFFFFF;
-	border: 1px solid;";
-	border-color: #000000 ;
-	padding:  5px;
+	border: 1px solid;
+	border-color: #000000;
+	padding: 5px;
 	text-align: center;
 }
 
@@ -180,33 +185,20 @@ tr:nth-child(even) {
 /* this option grey's out every other column */
 tr:nth-child(odd) {
 	background: #EFEFEF; 
-	border: 1px solid;";
+	border: 1px solid;
 	text-align: center;
 } 
 
 tr:nth-child(even) {
 	background: #FFFFFF; 
-	border: 1px solid;";
-		text-align: center;
+	border: 1px solid;
+	text-align: center;
 } 
 
 td {
 	border:  1px solid;
 	text-align: center;
 	width: 10%;
-}
-
-.site-img {
-/*	position: fixed;
-	width: 100%;
-	height: 100px;
-	z-index: 100px;
-	float: right;
-	width: 30%;
-	padding: 10px;
-
-	these commands make the picture go on top of the schedule
-*/
 }
 
 .site-sidebar {
