@@ -76,11 +76,6 @@ header {
 
 .logo {
 	padding: 15px;
-	/* float: left;
-	width: 100px;
-	padding: 15px;
-	box-sizing: border-box;
-	background: #FFFFFF; */
 }
 
 .header-nav {
@@ -89,17 +84,11 @@ header {
   padding: 0;
   overflow: hidden;
   background-color: #72A9AE;
-
-	/* list-style-type:  none;
-	margin: 0;
-	padding: 0; */
 }
 
 .header-nav-ind {
 	float:  left;
-/*	width: 20%;
-	display: inline;
-	background: #72A9AE; */
+	font-family: 'Roboto', sans-serif;
 } 
 
 .header-nav-ind > a {
@@ -125,7 +114,6 @@ li:hover{
 	background-image: url(../img/webb.png);
 }
 
-
 .site-content {
 	text-align: left;
 	width: 60%;
@@ -134,17 +122,6 @@ li:hover{
 	padding:  15px;
 	display: inline-block;
 }
-
-img .site-img {
-	display: inline-block;
-	width: 30%;
-}
-
-/* a:before, a:after {
-	content: "";
-	display: inline-block;
-	background-size: 100%;
-} */
 
 .schedule {
 	border: 1px solid;
@@ -173,17 +150,6 @@ th {
 	padding: 5px;
 }
 
-/*this option had no effect
-.r1:nth-child(even) {
-	background: #EFEFEF;
-} */
-
-/* this option greys out every other row
-tr:nth-child(even) {
-	background: #EFEFEF;
-} */
-
-/* this option grey's out every other column */
 tr:nth-child(odd) {
 	background: #EFEFEF; 
 	border: 1px solid;
@@ -208,6 +174,8 @@ td {
 
 .profile-edit {
 	width: 50%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
 }
 
 .profile-info {
@@ -221,48 +189,25 @@ h2 {
 .profile {
 	width: 100%;
 	padding: 15px;
-
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
 }
 
 .profile-edit {
 	display: inline-block;
 	padding: 15px;
-	width: 45%;
+	width: 40%;
+	border: 1px solid;
 }
+
 
 
 .profile-info {
 	display: inline-block;
 	padding: 15px;
 	width: 45%;
-}
-
-/*
-.footer {
-	background: #454545;
-	padding: 15px;
-
-	font-family: roboto , sans-serif;
-	color: #FFFFFF;
-} 
-
-.footer-nav-container {
-	float: left;
-	width: 30%;
-	padding-top: 30px;
-	box-sizing: border-box;
-}
-
-.footer-nav-social {
-	width: 50%;
-}
-
-.footer-address {
 	float: right;
-	width: 15%;
-	box-sizing: border-box;
 }
-*/
 
 footer {
 	width: 100%;
@@ -272,12 +217,14 @@ footer {
 	padding-bottom: 15px;
 	font-family: roboto, sans-serif;
 	color: #FFFFFF;
+	box-sizing: border-box;
 }
 
-#footer-containter {
+.footer-containter {
 	float: left;
-	width: 100%;
-	font-size: 100px;
+	width: 30%;
+	font-weight: bold;
+	font-size: 1000px;
 }
 
 .footer-nav-social {
@@ -290,6 +237,7 @@ footer {
 	width: 30%;
 	font-weight: bold;
 }
+
 
 header, main, footer {
 	max-width: 1280px;
