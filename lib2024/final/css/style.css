@@ -88,6 +88,11 @@ header {
 	display: inline;
 	padding: 15px;
 	background: #72A9AE;
+} 
+
+.header-nav-container {
+	position: relative;
+
 }
 
 li:hover{
@@ -98,9 +103,9 @@ li:hover{
 
 
 .main-container {
-	background-image: src="img/webb.png" alt="webb.png";
+	background-image: url(../img/webb.png);
 }
-/*the background image isn't working, not sure why*/
+
 
 .site-content {
 	text-align: left;
