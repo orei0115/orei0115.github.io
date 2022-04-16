@@ -75,6 +75,7 @@ header {
 }
 
 .logo {
+	padding: 15px;
 	/* float: left;
 	width: 100px;
 	padding: 15px;
@@ -213,13 +214,34 @@ td {
 	width: 50%;
 }
 
+h2 {
+	font-size: 24px;
+}
 
-.footer {
-	background: #454545;
+.profile {
 	width: 100%;
 	padding: 15px;
-	margin: 0 auto;
-	box-sizing: border-box;
+
+}
+
+.profile-edit {
+	display: inline-block;
+	padding: 15px;
+	width: 45%;
+}
+
+
+.profile-info {
+	display: inline-block;
+	padding: 15px;
+	width: 45%;
+}
+
+/*
+.footer {
+	background: #454545;
+	padding: 15px;
+
 	font-family: roboto , sans-serif;
 	color: #FFFFFF;
 } 
@@ -233,8 +255,6 @@ td {
 
 .footer-nav-social {
 	width: 50%;
-
-
 }
 
 .footer-address {
@@ -242,35 +262,39 @@ td {
 	width: 15%;
 	box-sizing: border-box;
 }
+*/
 
+footer {
+	width: 100%;
+	background-color: #454545;
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: roboto, sans-serif;
+	color: #FFFFFF;
+}
 
-/*
-.footer-nav {
+#footer-containter {
 	float: left;
 	width: 100%;
+	font-size: 100px;
 }
-.footer-social {
-	padding: 15px;
-	margin: 0 auto;
-}
-.social-container {
-	width: 100%;
-	box-sizing: border-box;
-	display: inline;
-} 
-.footer-address {
-	width: 100%;
-	float: right;
 
-	display: block;
+.footer-nav-social {
+	vertical-align: middle;
+	width: 30%;
 }
-*/ 
+
+.footer-address {
+	float: right;
+	width: 30%;
+	font-weight: bold;
+}
 
 header, main, footer {
 	max-width: 1280px;
 	margin: 0 auto
 }
-
 @media only screen and (min-width:  768px) {
 
 }

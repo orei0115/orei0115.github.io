@@ -58,43 +58,6 @@
 			<aside class="col-main site-sidebar">
 				<section>
 					<h2 class="section-headers-2">SCHEDULE</h2>
-
-<!--		tried using div's to creat table but spacing ended up off			
-						<div style="display: grid; grid-template-columns: repeat(6, minmax(0, auto));">
-							<div><a href=""></a>Time</div>
-							<div><a href=""></a>Monday</div>
-							<div><a href=""></a>Tuesday</div>
-							<div><a href=""></a>Wednesday</div>
-							<div><a href=""></a>Thursday</div>
-							<div><a href=""></a>Friday</div>
-							<div><a href=""></a>09:00 - 11:00</div>
-							<div><a href=""></a>Communications</div>
-							<div><a href=""></a>Client Services</div>
-							<div><a href=""></a>Special Collections</div>
-							<div><a href=""></a>Directed Research Seminar</div>
-							<div><a href=""></a>Client Services</div>
-							<div><a href=""></a>11:00 - 12:30</div>
-							<div><a href=""></a>Reference</div>
-							<div><a href=""></a>Internet apps</div>
-							<div>Library software</div>
-							<div>French</div>
-							<div>Reference</div>
-							<div>14:00 - 15:00</div>
-							<div>Acquisitions</div>
-							<div>General Elective</div>
-							<div>Marketing</div>
-							<div>Emerging Library Tech.</div>
-							<div>Library Software</div>
-							<div>15:30 - 17:30</div>
-							<div>French</div>
-							<div>French</div>
-							<div>Acquisitions</div>
-							<div>Subject Analysis</div>
-							<div>Internet apps</div>
-						</div>
-					-->
-
-<!-- originally created talbe using table tag but coudln't fiture out how to space it out.-->
 					<table class="schedule">
 						<thead>
 							<tr>
@@ -107,18 +70,14 @@
 							</tr>
 						</thead>
 						<tbody>
-						
-								<tr>
-								
-									<td><a href=""></a>09:00 - 11:00</td>
-									<td><a href=""></a>Communications 1</td>
-									<td><a href=""></a>Client Services</td>
-									<td><a href=""></a>Special Collections</td>
-									<td><a href=""></a>Directed Research Seminar</td>
-									<td><a href=""></a>Client Services</td>
-								</tr>
-				
-						
+							<tr>
+								<td><a href=""></a>09:00 - 11:00</td>
+								<td><a href=""></a>Communications 1</td>
+								<td><a href=""></a>Client Services</td>
+								<td><a href=""></a>Special Collections</td>
+								<td><a href=""></a>Directed Research Seminar</td>
+								<td><a href=""></a>Client Services</td>
+							</tr>
 							<tr>
 								<td><a href=""></a>11:00 - 12:30</td>
 								<td><a href=""></a>Reference</td>
@@ -150,8 +109,8 @@
 			<br>
 <!-- schedule stops here -->
 <!-- profile starts here -->			
-			<section>
-				<div class="col-main profile-edit">
+			<span class="profile">
+				<div class="profile-edit">
 					<h2>Edit Profile</h2>
 				</div>
 				<div>
@@ -197,46 +156,44 @@
 				<div>
 					<button type="submit">Submit</button>
 				</div>
-			</section>
-
-
-				<div class="col-main profile-info">
+				<div class="profile-info">
 					<h2>Profile Info</h2>
 						<p>
 							<i class="fas fa-address-card fa-10x"></i><br>
 						</p>
 				</div>
-
+			</span>	
 		</main>
 <!-- profile stops here -->					
-		<footer class="footer clearfix" id="footer">
+		<footer class="footer" id="footer">
 		
-			<nav class="footer-nav-container">
+			<div class="footer-container">
 				<h3>Quick Links</h3>
-				<ul class="footer-nav">
-					<li><a href="Schedule">Schedule</a></li>
-					<li><a href="About">About</a></li>
-					<li><a href="Portfolio">Portfolio</a></li>
-					<li><a href="Contact">Contact</a></li>
-				</ul>
-			</nav>
+					<ul class="footer-nav">
+						<li><a href="Schedule">Schedule</a></li>
+						<li><a href="About">About</a></li>
+						<li><a href="Portfolio">Portfolio</a></li>
+						<li><a href="Contact">Contact</a></li>
+					</ul>
+			</div>
 
-			<nav class="footer-nav-social">
-				<h3>Follow us</h3>
-				<ul>
-			        <li><a href="#"><img src="img/facebook.png" alt="facebook.png"></a></li>
-			        <li><a href="#"><img src="img/twitter.png" alt="twitter.png"></a></li>
-			        <li><a href="#"><img src="img/youtube.png" alt="youtube.png"></a></li>
-			    </ul>
-	    	</nav>
-	   
+			<div class="footer-nav-social">
+				<nav>
+					<h3>Follow us</h3>
+					<ul>
+				        <li><a href=""><img src="img/facebook.png" alt="facebook.png"></a></li>
+				        <li><a href=""><img src="img/twitter.png" alt="twitter.png"></a></li>
+				        <li><a href=""><img src="img/youtube.png" alt="youtube.png"></a></li>
+				    </ul>
+		    	</nav>
+	   		</div>
 
-			<section class="footer-address">
+			<div class="footer-address">
 				<h3>Address</h3>
 					<p>1385 Woodroffe Ave,
 					Nepean ON K2G 1V8
 					Canada</p>
-			</section>
+			</div>
 		</footer>
 	</body>
 </html>
