@@ -61,6 +61,7 @@ table {
 	dark grey : #454545 rgb 69,69,69
 	light grey : #EFEFEF rgb 239,239,239
 	white : FFFFFF rgb 255,255,255
+	yellow : FFEB3B rbg 255,235,59
 */
 
 
@@ -81,13 +82,20 @@ header {
 	background: #FFFFFF;
 }
 
-.header-nav-ind  {
+.header-nav-ind {
 	width: 20%;
 	box-sizing: border-box;
 	display: inline;
 	padding: 15px;
 	background: #72A9AE;
 }
+
+li:hover{
+	background: #FFEB3B;
+	transition-property: color;
+	transition-duration: 5s;
+}
+
 
 .main-container {
 	background-image: src="img/webb.png" alt="webb.png";
@@ -114,9 +122,19 @@ th:nth-child(odd) {
 	background: #EFEFEF;
 }
 
-
-td:nth-child(even) {
+/*this option had no effect
+.r1:nth-child(even) {
 	background: #EFEFEF;
+} */
+
+/* this option greys out every other row
+tr:nth-child(even) {
+	background: #EFEFEF;
+} */
+
+/* this option grey's out every other column */
+td:nth-child(even) {
+	background: #EFEFEF; 
 } 
 
 .site-img {
@@ -135,19 +153,6 @@ td:nth-child(even) {
 .site-sidebar {
 	font-family: 'Roboto', sans-serif;
 }
-/*
-.R1 {
-	background: #EFEFEF;
-}
-
-.R3 {
-	background: #EFEFEF;
-}
-
-.R5 {
-	background: #EFEFEF;
-}
-*/
 
 .profile-edit {
 	width: 50%;
@@ -161,8 +166,6 @@ footer {
 	padding: 15px;
 	margin: 0 auto;
 	box-sizing: border-box;
-	
-
 }
 
 .footer-nav {
@@ -175,6 +178,7 @@ footer {
 .footer-social {
 	padding: 15px;
 	margin: 0 auto;
+	display: inline;
 }
 
 .social-container {
