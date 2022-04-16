@@ -75,23 +75,41 @@ header {
 }
 
 .logo {
-	float: left;
+	/* float: left;
 	width: 100px;
 	padding: 15px;
 	box-sizing: border-box;
-	background: #FFFFFF;
+	background: #FFFFFF; */
+}
+
+.header-nav {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #72A9AE;
+
+	/* list-style-type:  none;
+	margin: 0;
+	padding: 0; */
 }
 
 .header-nav-ind {
-	width: 20%;
-	box-sizing: border-box;
+	float:  left;
+/*	width: 20%;
 	display: inline;
-	padding: 15px;
-	background: #72A9AE;
+	background: #72A9AE; */
 } 
 
+.header-nav-ind > a {
+	display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .header-nav-container {
-	position: relative;
 
 }
 
@@ -116,11 +134,11 @@ li:hover{
 	padding:  15px;
 }
 
-a:before, a:after {
+/* a:before, a:after {
 	content: "";
 	display: inline-block;
 	background-size: 100%;
-}
+} */
 
 .schedule {
 	border: 1px solid;";
