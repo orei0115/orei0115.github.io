@@ -71,7 +71,7 @@ table {
 
 header {
 	background: #FFFFFF;
-	width: 95%;
+	width: 100%;
 }
 
 .logo {
@@ -230,6 +230,14 @@ footer {
 .footer-nav-social {
 	vertical-align: middle;
 	width: 30%;
+}
+
+.footer-nav > li > a {
+	  text-decoration: none;
+  	color: #FFFFFF;
+  	padding:  15px;
+  	margin-left:  15px;
+		line-height: 2.5em;
 }
 
 .footer-address {
