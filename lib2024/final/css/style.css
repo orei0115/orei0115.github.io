@@ -172,41 +172,40 @@ td {
 	font-family: 'Roboto', sans-serif;
 }
 
-.profile-edit {
-	width: 50%;
+.profile-edit > h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
+	padding: 15px;
+	font-weight: bolder;
+	color: #72A9AE ;
+	margin-left: auto;
+	margin-right: 15%;
 }
 
-.profile-info {
-	width: 50%;
+.profile-right > h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	padding: 15px;
+	font-weight: bolder;
+	color: #72A9AE ;
+	margin-left: auto;
+	margin-right: 15%;
 }
+
 
 h2 {
 	font-size: 24px;
 }
 
 .profile {
-	width: 100%;
 	padding: 15px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 }
 
-.profile-edit {
-	display: inline-block;
-	padding: 15px;
-	width: 40%;
-	border: 1px solid;
-}
-
-
 
 .profile-info {
-	display: inline-block;
-	padding: 15px;
-	width: 45%;
-	float: right;
+
 }
 
 footer {
@@ -227,9 +226,17 @@ footer {
 	font-size: 1000px;
 }
 
-.footer-nav-social {
-	vertical-align: middle;
+.footer-social {
 	width: 30%;
+	display:  inline-block;
+	font-weight:  bold;
+	text-align: center;
+}
+
+.footer-social > nav > ul > li {
+	display:  inline-block;
+	float:  center;
+	padding:  5%;
 }
 
 .footer-nav > li > a {
@@ -240,12 +247,101 @@ footer {
 		line-height: 2.5em;
 }
 
-.footer-address {
-	float: right;
-	width: 30%;
+.footer-nav > h3 {
 	font-weight: bold;
 }
 
+.footer-nav {
+	float:  left;
+	padding:  15px;
+	width: 30%;
+}
+
+.footer-address {
+	float: right;
+	width: 30%;
+	display:  inline-block;
+}
+
+.footer-address > p {
+	padding:  15px;
+}
+
+.footer-address > h3 {
+	line-height: 2.5em;
+	font-weight: bolder;
+}
+
+.col-right {
+	display:  table-cell;
+	padding: 30px;
+  vertical-align: top;
+  width: 300px;
+}
+
+.col-left {
+  padding: 30px;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.profile-left{
+	display:  inline-block;
+	float:  left;
+	padding-left:  100px;
+}
+
+.profile-right {
+	display:  inline-block;
+	float:  right;
+	padding:  15px;
+
+	margin-left: auto;
+	margin-right: 5%;
+}
+
+.profile-card{
+		  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+	border: 1px solid;
+	border-color: #000000;
+	background:  whitesmoke;
+	padding:  15px;
+}
+
+.profile-card > .profile-name {
+	text-align:  center;
+	font-weight: bolder;
+	color: #72A9AE ;
+}
+
+.profile-card > .email {
+		text-align:  center;
+}
+
+.profile-card > .address {
+		text-align:  center;
+}
+
+.profile-card > .city {
+		text-align:  center;
+}
+
+.profile-card > .province {
+		text-align:  center;
+}
+
+.profile-card > .postalcode {
+		text-align:  center;
+}
+
+.profile-card:hover {
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.profile-container {
+}
 
 header, main, footer {
 	max-width: 1280px;
